@@ -1,0 +1,111 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 9418049642,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Helper.beforeScenario()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "To test the flight status",
+        "description": "",
+        "id": "to-test-the-flight-status;to-test-the-flight-status",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10813158360,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User should be in american airlines home page",
+            "match": {
+              "location": "FlightStatusSteps.user_should_be_in_american_airlines_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 604029523,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User clicks on flight status",
+            "match": {
+              "location": "FlightStatusSteps.user_clicks_on_flight_status()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 242429682,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User provide input for From ,TO,flight number,date",
+            "match": {
+              "location": "FlightStatusSteps.user_provide_input_for_From_TO_flight_number_date()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7565911488,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User clicks on the find status",
+            "match": {
+              "location": "FlightStatusSteps.user_clicks_on_the_find_status()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 86608532,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Flight status is displayed",
+            "match": {
+              "location": "FlightStatusSteps.flight_status_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "To test the flight status",
+    "description": "",
+    "id": "to-test-the-flight-status",
+    "keyword": "Feature",
+    "uri": "src/test/java/feature/FlightStatus.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
